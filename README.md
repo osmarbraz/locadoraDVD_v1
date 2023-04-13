@@ -1,4 +1,4 @@
-# Implementação do Controle de Empréstimos de de DVD em Java.
+# Implementação do Controle de Empréstimos de de DVD em Java v1.
 
 ## Contextualização
 Seu primo possui muitos DVDs, todos originais, e vive emprestando aos amigos dele. Entretanto, muitas vezes ele esquece a quem emprestou e já perdeu diversos DVDs por causa disso.
