@@ -42,7 +42,14 @@ public class Emprestimo {
         this.dvd = dvd;
     }
 
+    /**
+     *
+     * @throws Throwable
+     */
+    @Override
     public void finalize() throws Throwable {
+
+        super.finalize();
 
     }
 }//end Emprestimo

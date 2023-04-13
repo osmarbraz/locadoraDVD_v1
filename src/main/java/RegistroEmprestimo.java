@@ -39,7 +39,42 @@ public class RegistroEmprestimo {
 
     }
 
+    /**
+     *
+     * @param dvd
+     */
+    public void devolve(DVD dvd) {
+
+    }
+
+    /**
+     *
+     * @param dvd
+     * @return
+     */
+    public boolean estahEmprestado(DVD dvd) {
+        return false;
+    }
+
+    /**
+     *
+     * @param amigo
+     * @param dvd
+     * @return
+     */
+    public boolean faixaEtariaAbaixo(Amigo amigo, DVD dvd) {
+
+        return false;
+    }
+
+    /**
+     *
+     * @throws Throwable
+     */
+    @Override
     public void finalize() throws Throwable {
+
+        super.finalize();
 
     }
 }//end RegistroEmprestimo

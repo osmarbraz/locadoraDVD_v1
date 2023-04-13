@@ -20,7 +20,14 @@ public class Pessoa {
         this.nome = nome;
     }
 
+    /**
+     *
+     * @throws Throwable
+     */
+    @Override
     public void finalize() throws Throwable {
+
+        super.finalize();
 
     }
 }//end Pessoa

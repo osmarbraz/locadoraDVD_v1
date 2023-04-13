@@ -20,10 +20,6 @@ public class CadastroDVD {
         this.dvds = dvds;
     }
 
-    public void finalize() throws Throwable {
-
-    }
-
     /**
      *
      * @param Amigo
@@ -34,7 +30,7 @@ public class CadastroDVD {
 
     /**
      *
-     * @param int
+     * @param id
      */
     public void altera(int id) {
 
@@ -42,9 +38,20 @@ public class CadastroDVD {
 
     /**
      *
-     * @param int
+     * @param id
      */
     public void excluir(int id) {
+
+    }
+
+    /**
+     *
+     * @throws Throwable
+     */
+    @Override
+    public void finalize() throws Throwable {
+
+        super.finalize();
 
     }
 }//end CadastroDVD

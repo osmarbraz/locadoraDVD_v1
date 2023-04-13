@@ -51,7 +51,14 @@ public class Amigo extends Pessoa {
         this.faixaEtaria = faixaEtaria;
     }
 
+    /**
+     *
+     * @throws Throwable
+     */
+    @Override
     public void finalize() throws Throwable {
+
         super.finalize();
+
     }
 }//end Amigo

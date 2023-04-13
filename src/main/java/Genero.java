@@ -20,7 +20,14 @@ public class Genero {
         this.descricao = descricao;
     }
 
+    /**
+     *
+     * @throws Throwable
+     */
+    @Override
     public void finalize() throws Throwable {
+
+        super.finalize();
 
     }
 }//end Genero

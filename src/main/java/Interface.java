@@ -20,10 +20,6 @@ public class Interface {
         this.relatorioEmprestimos = relatorioEmprestimos;
     }
 
-    public void finalize() throws Throwable {
-
-    }
-
     /**
      *
      * @param string
@@ -54,6 +50,17 @@ public class Interface {
      * @param dvd
      */
     public void alteraFaixaEtaria(Amigo amigo, DVD dvd) {
+
+    }
+
+    /**
+     *
+     * @throws Throwable
+     */
+    @Override
+    public void finalize() throws Throwable {
+
+        super.finalize();
 
     }
 }//end Interface

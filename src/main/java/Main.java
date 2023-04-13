@@ -1,5 +1,4 @@
 
-
 /**
  * @author osmar
  * @version 1.0
@@ -7,27 +6,38 @@
  */
 public class Main {
 
-	public RegistroEmprestimo registroEmprestimo;
-	public Interface interfac;
-	public CadastroAmigo cadastroAmigo;
-	public CadastroDVD cadastroDVD;
+    public RegistroEmprestimo registroEmprestimo;
+    public Interface interfac;
+    public CadastroAmigo cadastroAmigo;
+    public CadastroDVD cadastroDVD;
 
-	public Main(){
+    public Main(RegistroEmprestimo registroEmprestimo, Interface interfac, CadastroAmigo cadastroAmigo, CadastroDVD cadastroDVD) {
+        this.registroEmprestimo = registroEmprestimo;
+        this.interfac = interfac;
+        this.cadastroAmigo = cadastroAmigo;
+        this.cadastroDVD = cadastroDVD;
+    }
 
-	}
+    public void cadastraAmigos() {
 
-	public void finalize() throws Throwable {
+    }
 
-	}
-	public void cadastraAmigos(){
+    public void cadastraDVDs() {
 
-	}
+    }
 
-	public void cadastraDVDs(){
+    public void registraEmprestimos() {
 
-	}
+    }
 
-	public void registraEmprestimos(){
+    /**
+     *
+     * @throws Throwable
+     */
+    @Override
+    public void finalize() throws Throwable {
 
-	}
+        super.finalize();
+
+    }
 }//end Main

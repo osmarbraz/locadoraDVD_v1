@@ -20,11 +20,21 @@ public class RelatorioEmprestimos {
         this.registroEmprestimo = registroEmprestimo;
     }
 
-    public void finalize() throws Throwable {
+    /**
+     *
+     */
+    public void imprimeRelatorio() {
 
     }
 
-    public void imprimeRelatorio() {
+    /**
+     *
+     * @throws Throwable
+     */
+    @Override
+    public void finalize() throws Throwable {
+
+        super.finalize();
 
     }
 }//end RelatorioEmprestimos

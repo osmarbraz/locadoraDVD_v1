@@ -20,10 +20,6 @@ public class CadastroAmigo {
         this.amigos = amigos;
     }
 
-    public void finalize() throws Throwable {
-
-    }
-
     /**
      *
      * @param amigo
@@ -45,6 +41,17 @@ public class CadastroAmigo {
      * @param amigo
      */
     public void exclui(int amigo) {
+
+    }
+
+    /**
+     *
+     * @throws Throwable
+     */
+    @Override
+    public void finalize() throws Throwable {
+
+        super.finalize();
 
     }
 }//end CadastroAmigo

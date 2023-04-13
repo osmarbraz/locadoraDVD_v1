@@ -70,7 +70,14 @@ public class DVD {
         this.classificacao = classificacao;
     }
 
+    /**
+     *
+     * @throws Throwable
+     */
+    @Override
     public void finalize() throws Throwable {
+
+        super.finalize();
 
     }
 }//end DVD

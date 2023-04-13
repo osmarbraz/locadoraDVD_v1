@@ -30,7 +30,23 @@ public class FaixaEtaria {
         this.ate = ate;
     }
 
+    /**
+     *
+     * @param faixaEtaria
+     * @return
+     */
+    public boolean ehAbaixo(FaixaEtaria faixaEtaria) {
+        return false;
+    }
+
+    /**
+     *
+     * @throws Throwable
+     */
+    @Override
     public void finalize() throws Throwable {
+
+        super.finalize();
 
     }
 }//end FaixaEtaria
